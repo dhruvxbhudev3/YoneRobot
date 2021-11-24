@@ -34,9 +34,9 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "LogoByYone.png"
+    fname2 = "LogoByDevilqueenbot.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By YoneRobot")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By D⃠𝐄𝐕𝐈𝐋 𝐐𝐔𝐄𝐄𝐍 bot")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -74,9 +74,9 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
-    fname2 = "LogoByYone.png"
+    fname2 = "LogoBydevilqueenbot.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By YoneRobot")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By D⃠𝐄𝐕𝐈𝐋 𝐐𝐔𝐄𝐄𝐍 Bot")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
